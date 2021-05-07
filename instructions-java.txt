@@ -1,0 +1,17 @@
+Write a Java project that reads the attached file (data.txt) and parses it into a text file. The text file should be equal to the below json data structure:
+{
+  'host': 'test.com',
+  'server_id': 55331,
+  'cost': 2.56,
+  'user': 'user',
+  'verbose': true,
+  'test_mode': true,
+  'debug_mode': false,
+  'log_file_path': '/tmp/logfile.log',
+  'send_notifications': true
+}
+Your email response should include the following:
+1. Instructions on how to setup and run project. Be as detailed as possible. Assume the interviewer doesn't have Java setup on his/her development environment.
+2. The java project that includes necessary classes and tests.
+
+We will be looking for readability, extensibility and maintainability.
